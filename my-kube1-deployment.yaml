@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: w9-deployment
+  name: my-kube1-deployment
   labels:
-    app: w9-app
+    app: my-kube-app1
 spec:
   replicas: 2  # Number of replicas
   selector:
     matchLabels:
-      app: w9-app
+      app: my-kube-app1
   template:
     metadata:
       labels:
-        app: w9-app
+        app: my-kube-app1
     spec:
       containers:
-        - name: w9-app-container
+        - name: my-kube1-container
           image: shiv4j/w9-dd-app:latest  # Your Docker image
           ports:
             - containerPort: 3001  # The port where the Node.js app is listening
