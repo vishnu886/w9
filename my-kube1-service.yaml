@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 8082  # External port to access the app
-      targetPort: 3000  # Port on the container (Node.js app is listening here)
+      targetPort: 3003  # Port on the container (Node.js app is listening here)
