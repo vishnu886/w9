@@ -24,6 +24,7 @@ pipeline {
             steps {
                 script {
                     // Deploy your Docker image
+                    bat 'minikube start'
                     echo 'Deploying application...'
                 }
             }
