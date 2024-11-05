@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-kube-deployment
+  name: my-kube2-deployment
 spec:
   type: LoadBalancer  # This exposes the service externally
   selector:
