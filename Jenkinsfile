@@ -29,7 +29,7 @@ pipeline {
                   //  bat 'kubectl apply -f my-kube1-service.yaml'
                    // bat 'minikube dashboard'
                    // bat 'kubectl get services'
-                   // echo 'Deploying application...'
+                    echo 'Deploying application...'
                 }
             }
         }
