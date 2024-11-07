@@ -7,8 +7,8 @@ pipeline {
                 script {
                     // Build your Docker image
                     bat 'docker build -t w9-csea .'
-                   bat 'docker tag w9-csea:latest shiv4j/w9-csea-app:latest'
-                   bat 'docker push shiv4j/w9-dh-app:latest'
+                   // bat 'docker tag w9-csea:latest vishnupatel1975/w9-csea-app:latest'
+                   // bat 'docker push shiv4j/w9-dh-app:latest'
                 }
             }
         }
